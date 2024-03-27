@@ -196,8 +196,7 @@ elif website_menu == "Project description":
 
     st.subheader("Dataset")
     txt = """
-        This web-application is a part of the final **Data Mining** project for **ITC Fellow Program 2020**. 
-
+        This web-application is a part of the Human Computer Interaction Digital Assignments.
         Datasets used in this project
         * Crowd-sourced Emotional Mutimodal Actors Dataset (**Crema-D**)
         * Ryerson Audio-Visual Database of Emotional Speech and Song (**Ravdess**)
@@ -210,7 +209,7 @@ elif website_menu == "Project description":
     fig = px.violin(
         df,
         y="source",
-        x="emotion4",
+        x="emotion3",
         color="actors",
         box=True,
         points="all",
@@ -221,5 +220,7 @@ elif website_menu == "Project description":
 elif website_menu == "Our team":
     st.subheader("Our team")
     st.balloons()
-    st.info("Reuel Nixon - 21BPS1406")
-    st.info("Alapati Hemalatha - 21BPS1384")
+    st.info("Reuel Nixon")
+    st.info("Alapati Hemalatha")
+    st.info("Kundan Sai Sourya")
+    st.info("Vamshi")
