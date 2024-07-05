@@ -222,5 +222,3 @@ elif website_menu == "Our team":
     st.balloons()
     st.info("Reuel Nixon")
     st.info("Alapati Hemalatha")
-    st.info("Kundan Sai Sourya")
-    st.info("Vamshi")
